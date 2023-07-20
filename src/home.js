@@ -101,7 +101,7 @@ return(
     <div className="col-md-9" id='content' style={{display:'inline-block',marginTop:'80px'}}>
        
                 <div className="searchBar">
-         <input type="text" className="form-control" onChange={this.Filtering} id='searchInput' style={{display:'inline-block',marginLeft:'150px'}} placeholder="keyword...."/>
+         <input type="text" className="form-control" onChange={this.Filtering} id='searchInput' style={{display:'inline-block'}} placeholder="keyword...."/>
          <input type="text" className="form-control" onChange={this.location} id='location' style={{display:'inline-block'}} placeholder="location..."/>
         <button className="btn btn-primary" style={{marginLeft:'10px', marginBottom:'7px'}} onClick={this.searchBar}><svg xmlns="http://www.w3.org/2000/svg" height="1em" style={{fill:'white'}} viewBox="0 0 512 512"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
             </button>
@@ -111,7 +111,7 @@ return(
                             <h4 style={{textAlign:"center",marginTop:'5px',marginBottom:'10px'}}>Filters</h4>
                           <hr style={{marginLeft:'20%', marginRight:'20%',border:'1px solid',marginTop:'5px'}}/>
                          <div className="col-md-6" style={{display:'inline-block'}}>
-                            <h6 style={{marginLeft:'150px'}}>Course Type</h6>
+                            <h6 className="filterName">Course Type</h6>
                             <form>
                          <div className="form-check form-switch" style={{marginLeft:'20px'}}>
                          <div className="cost-filter" style={{display:'inline-block'}}>
@@ -136,7 +136,7 @@ return(
                          
                          <div className="col-md-6" style={{display:'inline-block'}}>
                           
-                         <h6 style={{marginLeft:'150px'}}>Drone Type</h6>
+                         <h6 className="filterName">Drone Type</h6>
                          <div className="form-check form-switch" style={{marginLeft:'20px'}}>
                          <div className="cost-filter" style={{display:'inline-block'}}>
                          <input className="form-check-input" type="radio" name='check1' defaultChecked value='All' onClick={this.handleClick2}    />

@@ -43,7 +43,7 @@ body{
     z-index: 1;
     display: none;
     border-radius: 20px;
-    background-color: aliceblue;
+    background-color:transparent;
   }
 
 @media screen and (max-width:990px) {
@@ -64,8 +64,16 @@ body{
 
 @media screen and (max-width:1050px) {
   #navbuttons{
-    z-index: 1;
     background-image: aliceblue;
   }
 }
+
+
+@media screen and (max-width:700px) {
+    #navContainer.col-md-2{
+      z-index: 1;
+      background-image: aliceblue;
+    }
+  }
+
 

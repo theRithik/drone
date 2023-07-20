@@ -10,7 +10,7 @@ const Routing = ()=>{
     return(
         <BrowserRouter>
         
-        <Route exact path='/drone' component={Home}/>
+        <Route exact path='/' component={Home}/>
         <Route path='/details/:id' component={Details}/>
         <Route path='/order' component={Order}/>
         <Route path='/Admin' component={Institute}/>

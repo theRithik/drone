@@ -58,7 +58,7 @@ return(
   }
   else{
     return(
-      <img src='https://cdn.dribbble.com/users/1787505/screenshots/7300251/media/a351d9e0236c03a539181b95faced9e0.gif' alt='loader'/>
+      <img src='https://media.tenor.com/8ZhQShCQe9UAAAAC/loader.gif' id='loaderImg' alt='loader'/>
     )
   }
 }
@@ -106,29 +106,29 @@ return(
         <button className="btn btn-primary" style={{marginLeft:'10px', marginBottom:'7px'}} onClick={this.searchBar}><svg xmlns="http://www.w3.org/2000/svg" height="1em" style={{fill:'white'}} viewBox="0 0 512 512"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
             </button>
             </div>
-                    <div  style={{ marginTop:'10px',border:'2px solid grey',borderRadius:'20px',marginLeft:'60px',marginRight:'50px'}}>
+                    <div  style={{ marginTop:'10px',border:'2px solid grey',paddingBottom:'20px',borderRadius:'20px',marginLeft:'60px',marginRight:'50px'}}>
                         
                             <h4 style={{textAlign:"center",marginTop:'5px',marginBottom:'10px'}}>Filters</h4>
                           <hr style={{marginLeft:'20%', marginRight:'20%',border:'1px solid',marginTop:'5px'}}/>
                          <div className="col-md-6" style={{display:'inline-block'}}>
                             <h6 className="filterName">Course Type</h6>
                             <form>
-                         <div className="form-check form-switch" style={{marginLeft:'20px'}}>
+                         <div className="form-check form-switch">
                          <div className="cost-filter" style={{display:'inline-block'}}>
-                         <input className="form-check-input" type="radio" name='check1' defaultChecked value='All' onClick={this.handleClick2}    />
-                         <label  className="form-check-label" style={{marginRight:'20px'}}>All</label>
+                         <input className="form-check-input" type="radio" name='check1' style={{marginLeft:'10px',marginRight:'10px',marginBottom:'20px'}}  defaultChecked value='All' onClick={this.handleClick2}    />
+                         <label  className="form-check-label" style={{marginRight:'10px'}}>All</label>
                          </div>
                          <div className="cost-filter" style={{display:'inline-block'}}>
-                         <input className="form-check-input" type="radio" name='check1' value='Small' onClick={this.handleClick2}    />
-                         <label  className="form-check-label" style={{marginRight:'20px'}}>Small</label>
+                         <input className="form-check-input" type="radio" name='check1' style={{marginLeft:'10px',marginRight:'10px',marginBottom:'20px'}}  value='Small' onClick={this.handleClick2}    />
+                         <label  className="form-check-label" style={{marginRight:'10px'}}>Small</label>
                          </div>
                          <div className="cost-filter" style={{display:'inline-block'}}>
-                         <input className="form-check-input" type="radio" name='check1' value='Medium' onClick={this.handleClick2}    />
-                         <label  className="form-check-label" style={{marginRight:'20px'}}>Medium</label>
+                         <input className="form-check-input" type="radio" name='check1' style={{marginLeft:'10px',marginRight:'10px',marginBottom:'20px'}}  value='Medium' onClick={this.handleClick2}    />
+                         <label  className="form-check-label" style={{marginRight:'10px'}}>Medium</label>
                          </div>
                          <div className="cost-filter" style={{display:'inline-block'}}>
-                         <input className="form-check-input" type="radio" name='check1' value='Large' onClick={this.handleClick2}    />
-                         <label  className="form-check-label" style={{marginRight:'20px'}}>Large</label>
+                         <input className="form-check-input" type="radio" name='check1' style={{marginLeft:'10px',marginRight:'10px',marginBottom:'20px'}}  value='Large' onClick={this.handleClick2}    />
+                         <label  className="form-check-label" style={{marginRight:'10px'}}>Large</label>
                          </div>
                          </div>
                          </form>
@@ -137,22 +137,22 @@ return(
                          <div className="col-md-6" style={{display:'inline-block'}}>
                           
                          <h6 className="filterName">Drone Type</h6>
-                         <div className="form-check form-switch" style={{marginLeft:'20px'}}>
+                         <div className="form-check form-switch">
                          <div className="cost-filter" style={{display:'inline-block'}}>
-                         <input className="form-check-input" type="radio" name='check1' defaultChecked value='All' onClick={this.handleClick2}    />
-                         <label  className="form-check-label" style={{marginRight:'20px'}}>All</label>
+                         <input className="form-check-input" type="radio" name='check1' style={{marginLeft:'10px',marginRight:'10px',marginBottom:'20px'}} defaultChecked value='All' onClick={this.handleClick2}    />
+                         <label  className="form-check-label" style={{marginRight:'10px'}}>All</label>
                          </div>
                          <div className="cost-filter" style={{display:'inline-block'}}>
-                         <input className="form-check-input" type="radio" name='check1' value='Small' onClick={this.handleClick2}    />
-                         <label  className="form-check-label" style={{marginRight:'20px'}}>Small</label>
+                         <input className="form-check-input" type="radio" name='check1' style={{marginLeft:'10px',marginRight:'10px',marginBottom:'20px'}}  value='Small' onClick={this.handleClick2}    />
+                         <label  className="form-check-label" style={{marginRight:'10px'}}>Small</label>
                          </div>
                          <div className="cost-filter" style={{display:'inline-block'}}>
-                         <input className="form-check-input" type="radio" name='check1' value='Medium' onClick={this.handleClick2}    />
-                         <label  className="form-check-label" style={{marginRight:'20px'}}>Medium</label>
+                         <input className="form-check-input" type="radio" name='check1' style={{marginLeft:'10px',marginRight:'10px',marginBottom:'20px'}}  value='Medium' onClick={this.handleClick2}    />
+                         <label  className="form-check-label" style={{marginRight:'10px'}}>Medium</label>
                          </div>
                          <div className="cost-filter" style={{display:'inline-block'}}>
-                         <input className="form-check-input" type="radio" name='check1' value='Large' onClick={this.handleClick2}    />
-                         <label  className="form-check-label" style={{marginRight:'20px'}}>Large</label>
+                         <input className="form-check-input" type="radio" name='check1' style={{marginLeft:'10px',marginRight:'10px',marginBottom:'20px'}}  value='Large' onClick={this.handleClick2}    />
+                         <label  className="form-check-label" style={{marginRight:'10px'}}>Large</label>
                          </div>
                          </div>
 

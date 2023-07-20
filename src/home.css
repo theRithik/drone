@@ -1,6 +1,6 @@
 
 
-  body{
+body{
     overflow-y:scroll;
  } 
 
@@ -91,13 +91,7 @@
   #homeContent::-webkit-scrollbar-thumb {
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   }
-/* .filter{
-    border: 4px solid rgb(68, 67, 67);
-    border-radius: 20px;
-    height:fit-content;
-    width:90%;
-    margin-left: 40px;
-} */
+
 
 #listingCard{
     background-color: #FFDEE9;
@@ -196,7 +190,10 @@
     #searchInput{
         margin-left: 10%;
     }
-    
+    #loaderImg{
+        position: relative;
+        right: 70px;
+    }
 }
 
 
@@ -211,6 +208,10 @@
     h6.filterName{
         margin-left: 150px;
     }
+    #loaderImg{
+        position: relative;
+        right: 70px;
+    }
     
 }
 
@@ -218,12 +219,18 @@
    div#cardColumn{
         margin-left: 15%;
     }
-    
+    #loaderImg{
+        position: relative;
+        right: 70px;
+    }
 }
-
 
 @media screen and (max-width:640px) {
     h6.filterName{
         margin-left: 90px;
+    }
+    #loaderImg{
+        position: relative;
+        right: 70px;
     }
  }

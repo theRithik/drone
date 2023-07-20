@@ -1,0 +1,43 @@
+.courseImg{
+    order:1px solid grey;
+    padding:5px 10px 10px 10px;
+    border-radius:5px;
+    background-color: antiquewhite;
+}
+.listing{
+    height: 60px;
+}
+.discount2{
+    font-size: 15px;
+    text-decoration:line-through;
+    text-decoration-color: gray;
+    padding-right: 2px;
+    margin-left: 10px;
+    color: grey;
+}
+
+.reqTabs{
+    padding: 5px 10px 5px 10px;
+    font-size: 13px;
+    border: 1px solid #0575e6;
+    border-radius: 5px;
+    background: linear-gradient(to right, #0575e6, #021b79);
+    color: white;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+.years{
+   padding: 3px 7px 0 5px;
+    font-size: 10px;
+    /* background-color: rgb(243, 74, 56);
+    border-radius: 10px;
+    color: white; */ 
+    margin-bottom: 10px;
+}
+
+.accordion-button{
+    box-shadow: none;
+}

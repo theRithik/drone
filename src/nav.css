@@ -1,0 +1,71 @@
+.material-symbols-outlined{
+    cursor:pointer;
+}
+body{
+    background-color: aliceblue;
+}
+.nav-item{
+    padding-left: 10%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.nav-item:hover, .nav-item:active{
+        background-color: white;
+        border-radius: 0 120px 120px 0;
+
+}
+.nav-item:checked{
+    background-color: red;
+}
+
+.nav-item:checked ~.navbar:checked{
+    background-color: red;
+}
+
+
+#navContainer.sideMenu{
+  transition: .5s;
+    display: none;
+
+} 
+#navContainer{
+    display:block;
+    
+}
+.navbar{
+    background-color: aliceblue;
+}
+
+
+/* hover content */
+#hovertab{
+    position: relative;
+    z-index: 1;
+    display: none;
+    border-radius: 20px;
+    background-color: aliceblue;
+  }
+
+@media screen and (max-width:990px) {
+    #themeIcon1{
+        display: none;
+    }
+    #colorTheme{
+        display: block;
+    }
+  
+    
+}
+@media screen and (min-width:990px) {
+    #colorTheme{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1050px) {
+  #navbuttons{
+    z-index: 1;
+    background-image: aliceblue;
+  }
+}
+
